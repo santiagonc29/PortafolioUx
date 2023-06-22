@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "artypaBold";
+    src: url("../assets/fonts/Artypa_family/Artypa-Bold.otf") format("truetype");
+  }
+
+@font-face {
+    font-family: "artypaRegular";
+    src: url("../assets/fonts/Artypa_family/Artypa-Regular.otf") format("truetype");
+  }
+
+@font-face {
+    font-family: "artypaLight";
+    src: url("../assets/fonts/Artypa_family/Artypa-Light.otf") format("truetype");
+  }
+  
+
+body{
+    background: #171717 !important;
+    color: #fff !important;
+}
+
+.navbar{
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    backdrop-filter: blur(5px);
+}
+
+.deco{
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: "artypaRegular";
+}
+
+.nav-link{
+    color: #fff !important;
+    font-family: 'Pathway Extreme', sans-serif !important;
+    font-size: large;
+}
+
+.main{
+    margin-top: 100px !important;
+    height: 5000px;
+    border: solid 0.5px white;
+    
+}
+
+.links{
+    margin-right: 10px;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.3s;
+}
+
+.links:hover{
+  text-decoration: none;
+  background-size: 100% 1px;
+}
+
+
+.titulo{
+    font-family: 'Pathway Extreme', sans-serif !important;
+}
